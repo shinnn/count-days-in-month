@@ -1,0 +1,44 @@
+{
+  "name": "count-days-in-month",
+  "version": "1.0.0",
+  "description": "Get the number of days in a given month",
+  "repository": "shinnn/count-days-in-month",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "bower i --production && eslint --fix --config @shinnn --ignore-path .gitignore .",
+    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js | tap-spec",
+    "coverage": "node --strong_mode node_modules/.bin/istanbul cover -x=bower_components/** test.js"
+  },
+  "license": "MIT",
+  "jsnext:main": "index.jsnext.js",
+  "files": [
+    "index.js",
+    "index.jsnext.js"
+  ],
+  "keywords": [
+    "count",
+    "day",
+    "days",
+    "number",
+    "month",
+    "date",
+    "browser",
+    "client-side"
+  ],
+  "dependencies": {
+    "is-natural-number": "^4.0.1"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config": "^2.4.0",
+    "bower": "^1.7.9",
+    "eslint": "^2.13.1",
+    "istanbul": "^0.4.4",
+    "last-leap-year": "^1.1.1",
+    "require-bower-files": "^3.0.0",
+    "require-from-string": "^1.2.0",
+    "rollup": "^0.33.0",
+    "rollup-plugin-node-resolve": "^1.7.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}

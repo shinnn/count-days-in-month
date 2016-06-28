@@ -1,0 +1,34 @@
+{
+  "name": "count-days-in-month",
+  "description": "Get the number of days in a given month",
+  "keywords": [
+    "count",
+    "day",
+    "days",
+    "number",
+    "month",
+    "date"
+  ],
+  "main": "browser.js",
+  "moduleType": "globals",
+  "homepage": "https://github.com/shinnn/count-days-in-month",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/count-days-in-month.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "dependencies": {
+    "is-natural-number": "^4.0.1"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
